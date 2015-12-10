@@ -1,0 +1,14 @@
+body {background: grey;}
+
+
+.rotoElement {
+	-webkit-animation: rotomove 5s linear infinite;
+	animation: rotomove 5s linear infinite;
+}
+
+#roto {clip-path: url(#clip);}
+
+@-webkit-keyframes rotomove {
+	0% {transform: translateY(0px);}
+	100% {transform: translateY(-237px);}
+}

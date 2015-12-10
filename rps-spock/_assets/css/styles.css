@@ -1,0 +1,40 @@
+.select {
+	display: flex;
+	justify-content: space-around;
+	width: 750px; height: 150px;
+	margin: 0 auto;
+}
+
+.btn {
+	background: steelblue;
+	width: 150px; height: 50px;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.reset {
+	background: red;
+}
+
+.scores, .choice {
+	display: flex;
+	
+}
+
+.choice {height: 300px;}
+
+.score {
+	width: 50%;
+	text-align: center;
+}
+
+.chosen {
+	width: 200px; height: 200px;
+	margin: auto;
+	border: 1px solid #000;
+}
+
+.result {
+	height: 20px;
+	text-align: center;
+}
